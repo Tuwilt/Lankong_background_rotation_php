@@ -1,0 +1,2 @@
+# Lankong_background_rotation_php
+将兰空图床指定相册作为随机图片接口的 php 文件

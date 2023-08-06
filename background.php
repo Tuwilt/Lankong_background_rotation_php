@@ -9,6 +9,7 @@ function get_response($now_page_url) {
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_CUSTOMREQUEST => 'GET',
       CURLOPT_HTTPHEADER => array(
+         // 配置你的Token
          'Authorization: Bearer yourToken',
          'Accept: application/json'
       ),
